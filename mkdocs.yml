@@ -29,6 +29,7 @@ nav:
   - 'Scan a verified Transaction': block.md
   - 'Generate and Publish Reports': report.md
   - 'Integrations': integrations.md
+  
 
 markdown_extensions:
   - pymdownx.tilde
