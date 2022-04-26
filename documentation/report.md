@@ -1,41 +1,77 @@
-# Scanning a Contract using Solidity Scan
+# Generate a report for the scan done
 
-Let's go through the process of scanning a project/repository using Solidity Scan. We've tried to make this process as simple and automated as it could be.
+Once ascan is done, you have the option to generate and publish a report of the scan. You need to follow the following step to do so:
 
-# Step 1: Create an account on Solidity Scan
+# Step 1: Generate the Report
 
-First, let's create an account on Solidity Scan. To, create a new account Let's head on to: [solidityscan.com](https://solidityscan.com/signup). If you have already created an account, you can skip this step.
+First, Please scan a project or a deployed contract. If you have not scanned anything yet then head over here to [scan a project](./project) or here to [scan a deployed contract](./block).
 
-# Step 2: Enter the project you need to Scan
+Once you have finished scanning a project or a deployed contract, click on Generate Report button, like shown below.
 
-Once the account is created, Enter the name of the projects and the repository link for the project. Also select if the repository is publicj or private. Click on the button to start the scan.
+[Report Gen 1](./assets/images/Report Gen 1.png)
 
-![Scan the Project](./assets/images/project-scan-1.png)
+# Step 2: View your Report
 
-After you have started the scan, you will see the below screen.
+Once you have Genrated the report you will have the option to View your Report and Update it as well. Click on the view Report Button to view your Generated Report.
 
-![Scan Blocks](./assets/images/project-scan-5.png)
+![Scan the Project](./assets/images/Report Gen 2.png)
 
-# Step 3: View the results of the scan
+You can view the Following Section in your Report.
 
-On success completion of the scan, click on it to get more details about the scan.
+![Scan the Project](./assets/images/Report Gen 11.png)
 
-You will have an option to do a re-scan of the project. You can also view the statics of the scan as well as the statistics of the issues found in the project.
+There is a section to view the entire summary of the findings of the scan.
 
-![Scan Results](./assets/images/project-scan-2.png)
+![Scan the Project](./assets/images/Report Gen 5.png)
 
-# Step 3: View the detailed result of the scan
+You can also see the History of the Scans conducted for that project
 
-To get a more detailed result of the scan, you can navigate through the tabs. Click on the Detailed result tab to get a see the issues and vulnerabilities found in the scan in a detailed way.
+![Scan the Project](./assets/images/Report Gen 6.png)
 
-Here you can see the list of the issues found in the scan. When you click on any of these issues, you will see the list of the files containing these issues. After selecting the files, you can see exactly where the issue exactly lies in the file and what is the possible solution for remediate the issue.
+You can also see the list of all the vulnerablities found during the lates scan in the report
 
-![Detailed Results](./assets/images/project-scan-3.png)
+![Scan the Project](./assets/images/Report Gen 7.png)
 
-# Step 4: View the Scan history
+# Step 3: Update the Report
 
-You can see the history of the scans done for this project here. All the re-scans done can be seen here.
+After you have completed going through the report, you can update the status of the vulnerabilities found in the scan.
 
-Click on any one of the scans to view the result for that scan.
+If you do not want to update the status of any vulnerabilities you can skip this step and procced to Step 4.
 
-![Scan History](./assets/images/project-scan-4.png)
+To update the Report, Click on the Update Report button.
+
+![Scan the Project](./assets/images/Report Gen 3.png)
+
+All the Vulnerabilities are listed here along with their status. Click on any one of vulnerabilities, you will find the list of files containing these vulnerabilities along with their Status. Here we ask a bit of your help to update the status of the vulnerabilities found so that we can improve our scanner engine to give better results. If you feel that the Vulnerability found is a False Positive, Please mark that or if you feel you dont need to fix this vulnerability and it is better the way it is, please mark the status os Won't fix.
+
+Once you are done, Please Click on the Update Report button at the bottom as shown below.
+
+![Scan the Project](./assets/images/Report Gen 4.png)
+
+Onc you have updated the report, the status of these vulnerability will get updated and new updated status will be shown in the report thereafter.
+
+# Step 4: Publish Your Report
+
+Once you have gone through the Report and Update its results, you also have an option to Publish a report for the scan that was carried out so that it can be shared with anyone.
+
+To Publish a Report, Click on the Publish Report button as shown below.
+
+![Scan the Project](./assets/images/Report Gen 12.png)
+
+You will see a form with prefilled data. It contains some general information about the Report. After review it once click on Next to go to the final page of the form.
+
+![Scan the Project](./assets/images/Report Gen 8.png)
+
+Enter the contact information of the person or organization publishing the report. You can choose to make the information private or public. Once done click on Publish Report button to submit your request for Publishing your Report.
+
+![Scan the Project](./assets/images/Report Gen 9.png)
+
+Once the report has been reviewed by our team, the report for publishing your Report will be approved and it will be published.
+
+# Step 5: Expolred Published Reports.
+
+You can see the history of the Published Reports for different Scans here. Once you have submitted a request for publishing your report, you can see the report here along with the status of your request.
+
+Once your request is approved, you can view your report here and also copy the Public URL of your report from here.
+
+![Scan the Project](./assets/images/Report Gen 10.png)
