@@ -27,7 +27,7 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 
 - [Scan a Project](./project)
   Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
-- [Scan a verified Transaction](./block)
+- [Scan a verified Contract on an explore](./block)
   Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
 - [Generate and Publish Reports](./report)
   Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
