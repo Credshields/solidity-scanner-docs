@@ -26,10 +26,9 @@ extra_css: [assets/styles/style.css]
 nav:
   - 'Introduction': index.md
   - 'Scan a Project': project.md
-  - 'Scan a verified Transaction': block.md
+  - 'Scan a Deployed Contract': block.md
   - 'Generate and Publish Reports': report.md
   - 'Integrations': integrations.md
-  
 
 markdown_extensions:
   - pymdownx.tilde
