@@ -17,13 +17,13 @@ SolidityScan aims to provide security audits at a click of a button, helping dev
 # Solidity Scan Features:
 
 - [Scan a Project](./project)
-  Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
-- [Scan a verified Contract on an explore](./block)
-  Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+  Scan your public and private repositories hosted on Github.
+- [Scan a Contract deployed on Chain](./block)
+  Initiate scans on contracts deployed both on Testnets and Mainnets. SolidityScan currently supports Ethereum, Binance, Polygon, Avalanche and Fantom.
 - [Generate and Publish Reports](./report)
-  Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+  Generate your scan reports to get a detailed view on the vulnerabilities found in your source code. With your issues fixed, publish your report and share over the public link with your stakeholders.
 - [Integrations](./integrations)
-  Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+  Integrate SolidityScan with your github repository to conduct scans on your private repos.
 
   <br/>
   <br/>
