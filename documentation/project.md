@@ -130,4 +130,4 @@ You can see the history of the scans done for this project here. All the re-scan
 
 Click on any one of the <i>View Scan Result</i> to view the result for that scan.
 
-![Mark Wont Fix](./assets/images/project/)
+![Mark Wont Fix](./assets/images/project/project_scan_history.png)
