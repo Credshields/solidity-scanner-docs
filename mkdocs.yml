@@ -1,4 +1,4 @@
-site_name: Solidity Scan
+site_name: Solidity Scan Docs
 docs_dir: documentation
 theme:
   name: material
@@ -27,6 +27,7 @@ nav:
   - 'Introduction': index.md
   - 'Scan a Project': project.md
   - 'Scan a Deployed Contract': block.md
+  - 'Scan Solidity Files': filescan.md
   - 'Generate and Publish Reports': report.md
   - 'Integrations': integrations.md
 
