@@ -13,7 +13,7 @@
     
     
       
-        <title>Solidity Scan</title>
+        <title>Solidity Scan Docs</title>
       
     
     
@@ -75,7 +75,7 @@
 
 <header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="." title="Solidity Scan" class="md-header__button md-logo" aria-label="Solidity Scan" data-md-component="logo">
+    <a href="." title="Solidity Scan Docs" class="md-header__button md-logo" aria-label="Solidity Scan Docs" data-md-component="logo">
       
   <img src="assets/images/logo.png" alt="logo">
 
@@ -87,7 +87,7 @@
       <div class="md-header__ellipsis">
         <div class="md-header__topic">
           <span class="md-ellipsis">
-            Solidity Scan
+            Solidity Scan Docs
           </span>
         </div>
         <div class="md-header__topic" data-md-component="header-topic">
@@ -160,12 +160,12 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="." title="Solidity Scan" class="md-nav__button md-logo" aria-label="Solidity Scan" data-md-component="logo">
+    <a href="." title="Solidity Scan Docs" class="md-nav__button md-logo" aria-label="Solidity Scan Docs" data-md-component="logo">
       
   <img src="assets/images/logo.png" alt="logo">
 
     </a>
-    Solidity Scan
+    Solidity Scan Docs
   </label>
   
   <ul class="md-nav__list" data-md-scrollfix>
@@ -220,6 +220,21 @@
     <li class="md-nav__item">
       <a href="block/" class="md-nav__link">
         Scan a Deployed Contract
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="filescan/" class="md-nav__link">
+        Scan Solidity Files
       </a>
     </li>
   
@@ -288,12 +303,12 @@
 
 
 <h1 id="introduction">Introduction</h1>
-<p>SolidityScan is a cloud-based Smart-contract vulnerability scanner built to discover vulnerabilities and help publish audit reports after the vulnerability mitigations.</p>
-<p>SolidityScan scans all your smart contacts code to detect known potential security vulnerabilities in code and anti-patterns. The product aims to sit in your development pipeline, run the scan on your contact’s code, and flag known vulnerabilities. The end output from the product is an audit report of your code, which has information on which parts of your code might lead to potential security vulnerabilities.</p>
-<p>The application also outputs the security score helping developers understand the security posture of their contracts and rescan their contracts after bug fixing to improve their score and publish the audit report to the community. </p>
+<p>SolidityScan is a cloud-based smart-contract vulnerability scanner built to discover vulnerabilities and help publish audit reports after vulnerability mitigations.</p>
+<p>SolidityScan scans all of your smart contract code to detect potential security vulnerabilities and anti-patterns. The product aims to sit in your development pipeline, run the scan on your contract's code, and flag known vulnerabilities. The end output from the product is an audit report of your code, which contains information on which parts of your code might lead to potential security vulnerabilities.</p>
+<p>The application also outputs a security score, which helps developers understand the security posture of their contracts. They can then rescan their contracts after bug fixing to improve their score and publish the audit report to the community.</p>
 <p><br/></p>
 <h1 id="what-are-we-trying-to-do">What are we trying to do?</h1>
-<p>SolidityScan aims to provide security audits at a click of a button, helping developers, organizations, and security teams discover security vulnerabilities and publish reports after fixing them. </p>
+<p>SolidityScan aims to provide security audits with just a click of a button, helping developers, organizations, and security teams to discover security vulnerabilities and publish reports once they have been fixed.</p>
 <p><br/></p>
 <h1 id="solidity-scan-features">Solidity Scan Features:</h1>
 <ul>
@@ -301,6 +316,8 @@
   Scan your public and private repositories hosted on Github.</li>
 <li><a href="./block">Scan a Contract deployed on Chain</a>
   Initiate scans on contracts deployed both on Testnets and Mainnets. SolidityScan currently supports Ethereum, Binance, Polygon, Avalanche and Fantom.</li>
+<li><a href="./project">Upload and Scan a .sol File</a>
+  Upload your Solidity Files (.sol, .Sol) and scan them.</li>
 <li><a href="./report">Generate and Publish Reports</a>
   Generate your scan reports to get a detailed view on the vulnerabilities found in your source code. With your issues fixed, publish your report and share over the public link with your stakeholders.</li>
 <li><a href="./integrations">Integrations</a>

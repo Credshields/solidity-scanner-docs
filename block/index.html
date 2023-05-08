@@ -13,7 +13,7 @@
     
     
       
-        <title>Scan a Deployed Contract - Solidity Scan</title>
+        <title>Scan a Deployed Contract - Solidity Scan Docs</title>
       
     
     
@@ -75,7 +75,7 @@
 
 <header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href=".." title="Solidity Scan" class="md-header__button md-logo" aria-label="Solidity Scan" data-md-component="logo">
+    <a href=".." title="Solidity Scan Docs" class="md-header__button md-logo" aria-label="Solidity Scan Docs" data-md-component="logo">
       
   <img src="../assets/images/logo.png" alt="logo">
 
@@ -87,7 +87,7 @@
       <div class="md-header__ellipsis">
         <div class="md-header__topic">
           <span class="md-ellipsis">
-            Solidity Scan
+            Solidity Scan Docs
           </span>
         </div>
         <div class="md-header__topic" data-md-component="header-topic">
@@ -160,12 +160,12 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href=".." title="Solidity Scan" class="md-nav__button md-logo" aria-label="Solidity Scan" data-md-component="logo">
+    <a href=".." title="Solidity Scan Docs" class="md-nav__button md-logo" aria-label="Solidity Scan Docs" data-md-component="logo">
       
   <img src="../assets/images/logo.png" alt="logo">
 
     </a>
-    Solidity Scan
+    Solidity Scan Docs
   </label>
   
   <ul class="md-nav__list" data-md-scrollfix>
@@ -217,10 +217,56 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Scan a Deployed Contract
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         Scan a Deployed Contract
       </a>
       
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#note-please-follow-the-constraints-below-to-avoid-scan-failure" class="md-nav__link">
+    NOTE: Please follow the constraints below to avoid scan failure:
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../filescan/" class="md-nav__link">
+        Scan Solidity Files
+      </a>
     </li>
   
 
@@ -275,6 +321,21 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#note-please-follow-the-constraints-below-to-avoid-scan-failure" class="md-nav__link">
+    NOTE: Please follow the constraints below to avoid scan failure:
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -288,21 +349,36 @@
 
 
 <h1 id="scanning-a-deployed-contract-using-solidity-scan">Scanning a Deployed Contract using Solidity Scan</h1>
-<p>We also provide the functionality to scan a particular deployed contract whose codes are published on the supported explorers. The current supported chains and their respective explorers are as below.
-1. Ethereum - etherscan.io
-2. BSC - bscscan.com
-3. Polygon - polygonscan.com
-4. Fantom - ftmscan.com
-5. Avalanche - snowtrace.io</p>
-<p>Note: All major testnets are also supported. </p>
+<p>We also provide the functionality to scan a particular deployed contract whose codes are published on the supported explorers. The current supported chains and their respective explorers are as below.</p>
+<ol>
+<li><a href="https://etherscan.io/">Ethereum - (etherscan.io)</a></li>
+<li><a href="https://bscscan.com/">BSC - (bscscan.com)</a></li>
+<li><a href="https://polygonscan.com/">Polygon - (polygonscan.com)</a></li>
+<li><a href="https://ftmscan.com/">Fantom - (ftmscan.com)</a></li>
+<li><a href="https://snowtrace.io/">Avalanche - (snowtrace.io)</a></li>
+<li><a href="https://cronoscan.com/">Cronos - (cronoscan.com)</a></li>
+<li><a href="https://arbiscan.io/">Arbiscan - (arbiscan.io)</a></li>
+<li><a href="https://celoscan.io/">Celo - (celoscan.io)</a></li>
+<li><a href="https://explorer.aurora.dev/">Aurora - (explorer.aurora.dev)</a></li>
+<li><a href="https://reefscan.com/">ReefScan - (reefscan.com)</a></li>
+<li><a href="https://www.optimism.io/">Optimism - (optimism.io)</a></li>
+<li><a href="https://buildbear.io/">Buildbear - (buildbear.io)</a></li>
+<li><a href="https://xdc.blocksscan.io/">XDC - (xdc.blocksscan.io)</a></li>
+</ol>
+<h6 id="note-please-follow-the-constraints-below-to-avoid-scan-failure">NOTE: Please follow the constraints below to avoid scan failure:</h6>
+<ol>
+<li>Navigate to the explorer of the particular blockchain (Ethereum - Etherscan.io).</li>
+<li>Use the search bar to get your smart contract and check if the source code is verified in the "Contract" tab of the selected explorer.</li>
+</ol>
 <h1 id="step-1-enter-the-details-of-the-contract">Step 1: Enter the details of the contract</h1>
 <p>Enter the link to the contract from the ledger. Select the blockchain platform on which this transaction has taken place. Also, select the contract chain for this transaction.</p>
-<p><img alt="Scan the Project" src="../assets/images/Block%20Scan%201.png" /></p>
+<p><img alt="Scan the Project" src="../assets/images/block/block_scan_form.png" /></p>
 <h1 id="step-2-view-the-results-of-the-scan">Step 2: View the results of the scan</h1>
 <p>On successful completion of the scan, click on it to get more details about the scan.</p>
 <p>Refer to the Project Scan section to see how to explore the detailed result of a scan.</p>
+<h6 id="note-scan-history-and-custom-settings-are-only-present-for-github-repository-scans">NOTE: Scan History and Custom Settings are only present for Github Repository Scans.</h6>
 <p>Click on the View button to go to the Contract on the respective explorer. Click on the dropdown to see more details about the Contract.</p>
-<p><img alt="Scan Results" src="../assets/images/Block%20Scan%202.png" /></p>
+<p><img alt="Scan Results" src="../assets/images/block/block_detailed_result.png" /></p>
 
               
             </article>
@@ -332,13 +408,13 @@
       
       
         
-        <a href="../report/" class="md-footer__link md-footer__link--next" aria-label="Next: Generate and Publish Reports" rel="next">
+        <a href="../filescan/" class="md-footer__link md-footer__link--next" aria-label="Next: Scan Solidity Files" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 Next
               </span>
-              Generate and Publish Reports
+              Scan Solidity Files
             </div>
           </div>
           <div class="md-footer__button md-icon">
