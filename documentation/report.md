@@ -10,8 +10,6 @@ Once you have finished scanning a project or a deployed contract or a file, clic
 
 Once you have generated the report, you will have the option to View your Report.
 
-![File Scan Form](./assets/images/report/generate.gif)
-
 # Step 2: Publish Your Report
 
 Once you have gone through the report and updated its results, you also have an option to Publish a report for the scan that was carried out so that it can be shared with anyone.
@@ -24,18 +22,13 @@ Enter the contact information of the person or organization publishing the repor
 
 Once our team has reviewed the report, the report for publishing your Report will be approved, and it will be published.
 
-![Publish Report](./assets/images/report/publish.gif)
-
 # Step 3: Explore Published Reports.
 
 You can see the history of the Published Reports for different Scans here. Once you have submitted a request for publishing your report, you can see the report here, along with the status of your request.
 
 Once your request is approved, you can view your report here and also copy the Public URL of your report from here.
 
-![File Scan Form](./assets/images/report/report_explorer.png)
-
 # Step 4: Download Report.
 
 Once you have published your report and it has been approved by our team, you can also download it as a PDf and share it offline.
 
-![File Scan Form](./assets/images/report/download.gif)

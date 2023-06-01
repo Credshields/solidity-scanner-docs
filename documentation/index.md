@@ -6,6 +6,8 @@ SolidityScan scans all of your smart contract code to detect potential security 
 
 The application also outputs a security score, which helps developers understand the security posture of their contracts. They can then rescan their contracts after bug fixing to improve their score and publish the audit report to the community.
 
+<iframe width="720" height="410" src="https://www.youtube.com/embed/psu3GTKS_us" title="SolidityScan by CredShields - Intro" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 <br/>
 
 # What are we trying to do?

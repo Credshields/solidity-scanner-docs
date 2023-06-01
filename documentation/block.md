@@ -38,3 +38,7 @@ Refer to the Project Scan section to see how to explore the detailed result of a
 Click on the View button to go to the Contract on the respective explorer. Click on the dropdown to see more details about the Contract.
 
 ![Scan Results](./assets/images/block/block_detailed_result.png)
+
+Watch the Tutorial on How to Scan a verified contract on Etherscan using SolidityScan.
+
+<iframe width="740" height="420" src="https://www.youtube.com/embed/2DBc8iNS9Io" title="Scan a verified contract on Etherscan using SolidityScan" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

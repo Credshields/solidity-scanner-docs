@@ -14,8 +14,6 @@ Either click in the Upload Box or drag and drop files into the box to upload.
 
 2. A Maximum number of files that can be uploaded is 5 and file size cannot exceed 5MB.
 
-![File Scan Form](./assets/images/filescan/filescan.gif)
-
 # Step 2: View the results of the scan
 
 On successful completion of the scan, click on it to get more details about the scan.
@@ -23,3 +21,7 @@ On successful completion of the scan, click on it to get more details about the 
 Refer to the Project Scan section to see how to explore the detailed result of a scan.
 
 ###### NOTE: Scan History and Custom Settings are only present for Github Repository Scans.
+
+Watch the Tutorial on How to Scan one or multiple Solidity files (.sol extension) using SolidityScan
+
+<iframe width="740" height="420" src="https://www.youtube.com/embed/MTvAtmukX40" title="Scan one or multiple Solidity files (.sol extension) using SolidityScan" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

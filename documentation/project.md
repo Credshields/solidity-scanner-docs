@@ -18,8 +18,6 @@ Enter the project's name and the repository link for the project. When entering 
 
 2. Verify if the repository is public, for private repositories, please integrate your GitHub from the Integrations tab.
 
-![Scan the Project](./assets/images/project/step_1.gif)
-
 Also, select if the repository is public or private. Click on the next button to proceed to Step 2.
 
 #### STEP 2: Select Branch and Files to be Scanned
@@ -27,8 +25,6 @@ Also, select if the repository is public or private. Click on the next button to
 After you have entered the github repository link, you will be asked to select a branch that contains the project which has to be scanned. By default, the default branch on your github repository will be selected.
 
 Also you will have an option to select files and folders that you want to scan. The files and folders that are not selected will be skipped in the scanning process.
-
-![Select Branch and Files](./assets/images/project/step_2.gif)
 
 ###### Note: Only solidity files (files with .sol, .Sol extension) will be scanned
 
@@ -40,13 +36,19 @@ You have the option to trigger automatic scans using Github Actions. Whenever a 
 
 You can only configure webhooks for those github respository which are owned by you (user). Also this funcationality is only possible once you have connected your github account with SolidityScan Application. [Here](./integrations) are the steps to do the.
 
-After you have configured your settings click on Start Scan Button to initiate the scan.
+Watch this tutorial on How to Integrate your Github account with SolidityScan.
 
-![Configure Webhooks](./assets/images/project/step_3.gif)
+<iframe width="740" height="420" src="https://www.youtube.com/embed/ppZ-ktRcC88" title="Integrate your Github account with SolidityScan" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+After you have configured your settings click on Start Scan Button to initiate the scan.
 
 After you have started the scan, you will see the below screen.
 
 ![Scan Blocks](./assets/images/project/project_list.png)
+
+Watch this tutorial on How to do a Project Scan.
+
+<iframe width="720" height="410" src="https://www.youtube.com/embed/NFKnm2H9wvE" title="Scan a Github Project using SolidityScan" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 # View the results of the scan
 
@@ -86,15 +88,9 @@ Here we ask a bit of your help to update the status of the vulnerabilities found
 
 If you feel you don't need to fix this vulnerability and it is better the way it is, please mark the status as Won't fix. To mark wont-fix status you also have to add a comment while doing it explaining why there isn't a need to fix the vulnerablity.
 
-![Mark Wont Fix](./assets/images/project/mark_wont_fix.gif)
-
 If you feel that the vulnerability found is a False Positive, Please mark that.
 
-![Mark Wont Fix](./assets/images/project/mark_false_positive.gif)
-
 There is also an option to reset a bug status to default again if you feel if you might need to fix it.
-
-![Mark Wont Fix](./assets/images/project/mark_rest_bug.gif)
 
 The scanner automatically updates the status of bugs found to be fixed after performing the rescan.
 
@@ -102,19 +98,13 @@ The scanner automatically updates the status of bugs found to be fixed after per
 
 You can also update comments on your comments done on a bug.
 
-![Mark Wont Fix](./assets/images/project/update_comment.gif)
+Watch the Tutorial on How to Navigate through your vulnerability scan results on SolidityScan.
+
+<iframe width="740" height="420" src="https://www.youtube.com/embed/huu1o1sjWWg" title="Navigate through your vulnerability scan results on SolidityScan" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 #### Configure Settings of a Project
 
 You can Configure Settings on a Project for future scans. There are functionalities to update directories and files to be scanned and also to enable ans disable webhooks for automatic scans.
-
-##### Update Files to be Scanned
-
-You can update the files and folders that are to be scanned by selecting the checkboxes and clicking on <i>Update</i> Button. The files that you have not selected will be skipped and will not be scanned in future.
-
-![Mark Wont Fix](./assets/images/project/update_comment.gif)
-
-###### Note: Only solidity files (files with .sol, .Sol extension) will be scanned. Files that will not be scanned will not be highlighted
 
 ##### Update Webhook Settings for Github Actions
 
@@ -122,7 +112,17 @@ You have the option to trigger automatic scans using Github Actions. Whenever a 
 
 You can only configure webhooks for those github respository which are owned by you (user). Also this funcationality is only possible once you have connected your github account with SolidityScan Application. [Here](./integrations) are the steps to do the.
 
+##### Update Files to be Scanned
+
+You can update the files and folders that are to be scanned by selecting the checkboxes and clicking on <i>Update</i> Button. The files that you have not selected will be skipped and will not be scanned in future.
+
+###### Note: Only solidity files (files with .sol, .Sol extension) will be scanned. Files that will not be scanned will not be highlighted
+
 ![Mark Wont Fix](./assets/images/project/project_settings_webhook.png)
+
+Watch the Tutorial on How to Enable Github actions to facilitate continuous security using SolidityScan.
+
+<iframe width="740" height="420" src="https://www.youtube.com/embed/XgKJifONbi0" title="Enable Github actions to facilitate continuous security using SolidityScan" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 #### View History of Scans
 

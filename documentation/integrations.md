@@ -27,3 +27,7 @@ Once the login is successful, authorize the app to get data from your GitHub acc
 After you have successfully connected the app to your GitHub account, you can see the integration status. You also have an option to Disconnect your GitHub account if you want.
 
 ![Scan Blocks](./assets/images/integrations/Int 4.png)
+
+Watch this tutorial on How to Integrate your Github account with SolidityScan.
+
+<iframe width="740" height="420" src="https://www.youtube.com/embed/ppZ-ktRcC88" title="Integrate your Github account with SolidityScan" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
