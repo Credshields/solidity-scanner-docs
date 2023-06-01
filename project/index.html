@@ -318,21 +318,24 @@
 <p>Verify if the repository is public, for private repositories, please integrate your GitHub from the Integrations tab.</p>
 </li>
 </ol>
-<p><img alt="Scan the Project" src="../assets/images/project/step_1.gif" /></p>
 <p>Also, select if the repository is public or private. Click on the next button to proceed to Step 2.</p>
 <h4 id="step-2-select-branch-and-files-to-be-scanned">STEP 2: Select Branch and Files to be Scanned</h4>
 <p>After you have entered the github repository link, you will be asked to select a branch that contains the project which has to be scanned. By default, the default branch on your github repository will be selected.</p>
 <p>Also you will have an option to select files and folders that you want to scan. The files and folders that are not selected will be skipped in the scanning process.</p>
-<p><img alt="Select Branch and Files" src="../assets/images/project/step_2.gif" /></p>
 <h6 id="note-only-solidity-files-files-with-sol-sol-extension-will-be-scanned">Note: Only solidity files (files with .sol, .Sol extension) will be scanned</h6>
 <p>Once you are done configuring your settings, click on next to proceed to Step 3.</p>
 <h4 id="step-3-configure-webhooks-for-github-actions">STEP 3: Configure Webhooks for Github Actions</h4>
 <p>You have the option to trigger automatic scans using Github Actions. Whenever a new commit will be pushed to the branch, if webhook has been enabled then it will trigger a scan automatically to check if the new changes have any vulnerabilities present.</p>
 <p>You can only configure webhooks for those github respository which are owned by you (user). Also this funcationality is only possible once you have connected your github account with SolidityScan Application. <a href="./integrations">Here</a> are the steps to do the.</p>
+<p>Watch this tutorial on How to Integrate your Github account with SolidityScan.</p>
+<iframe width="740" height="420" src="https://www.youtube.com/embed/ppZ-ktRcC88" title="Integrate your Github account with SolidityScan" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 <p>After you have configured your settings click on Start Scan Button to initiate the scan.</p>
-<p><img alt="Configure Webhooks" src="../assets/images/project/step_3.gif" /></p>
 <p>After you have started the scan, you will see the below screen.</p>
 <p><img alt="Scan Blocks" src="../assets/images/project/project_list.png" /></p>
+<p>Watch this tutorial on How to do a Project Scan.</p>
+<iframe width="720" height="410" src="https://www.youtube.com/embed/NFKnm2H9wvE" title="Scan a Github Project using SolidityScan" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 <h1 id="view-the-results-of-the-scan">View the results of the scan</h1>
 <p>On successful completion of the scan, click on it to get more details about the scan.</p>
 <p>You will have an option to do a re-scan of the project. You can also view the statistics of the scan and the details of the issues found in the project.</p>
@@ -355,25 +358,26 @@
 <p>We have a functionality where we keep a track of the status of the bugs present. You can update the status of the vulnerabilities found in the scan basis to track the work.</p>
 <p>Here we ask a bit of your help to update the status of the vulnerabilities found so that we can improve our scanner engine to give better results. All the Vulnerabilities in your code are listed here, along with their status. Click on any one of the vulnerabilities, and you will find the list of files containing these vulnerabilities along with their status. You also have an option to multiple select issues or batch of issues together and mark their status atr once.</p>
 <p>If you feel you don't need to fix this vulnerability and it is better the way it is, please mark the status as Won't fix. To mark wont-fix status you also have to add a comment while doing it explaining why there isn't a need to fix the vulnerablity.</p>
-<p><img alt="Mark Wont Fix" src="../assets/images/project/mark_wont_fix.gif" /></p>
 <p>If you feel that the vulnerability found is a False Positive, Please mark that.</p>
-<p><img alt="Mark Wont Fix" src="../assets/images/project/mark_false_positive.gif" /></p>
 <p>There is also an option to reset a bug status to default again if you feel if you might need to fix it.</p>
-<p><img alt="Mark Wont Fix" src="../assets/images/project/mark_rest_bug.gif" /></p>
 <p>The scanner automatically updates the status of bugs found to be fixed after performing the rescan.</p>
 <h5 id="updating-comments-on-bug">Updating Comments on Bug</h5>
 <p>You can also update comments on your comments done on a bug.</p>
-<p><img alt="Mark Wont Fix" src="../assets/images/project/update_comment.gif" /></p>
+<p>Watch the Tutorial on How to Navigate through your vulnerability scan results on SolidityScan.</p>
+<iframe width="740" height="420" src="https://www.youtube.com/embed/huu1o1sjWWg" title="Navigate through your vulnerability scan results on SolidityScan" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 <h4 id="configure-settings-of-a-project">Configure Settings of a Project</h4>
 <p>You can Configure Settings on a Project for future scans. There are functionalities to update directories and files to be scanned and also to enable ans disable webhooks for automatic scans.</p>
-<h5 id="update-files-to-be-scanned">Update Files to be Scanned</h5>
-<p>You can update the files and folders that are to be scanned by selecting the checkboxes and clicking on <i>Update</i> Button. The files that you have not selected will be skipped and will not be scanned in future.</p>
-<p><img alt="Mark Wont Fix" src="../assets/images/project/update_comment.gif" /></p>
-<h6 id="note-only-solidity-files-files-with-sol-sol-extension-will-be-scanned-files-that-will-not-be-scanned-will-not-be-highlighted">Note: Only solidity files (files with .sol, .Sol extension) will be scanned. Files that will not be scanned will not be highlighted</h6>
 <h5 id="update-webhook-settings-for-github-actions">Update Webhook Settings for Github Actions</h5>
 <p>You have the option to trigger automatic scans using Github Actions. Whenever a new commit will be pushed to the branch, if webhook has been enabled then it will trigger a scan automatically to check if the new changes have any vulnerabilities present.</p>
 <p>You can only configure webhooks for those github respository which are owned by you (user). Also this funcationality is only possible once you have connected your github account with SolidityScan Application. <a href="./integrations">Here</a> are the steps to do the.</p>
+<h5 id="update-files-to-be-scanned">Update Files to be Scanned</h5>
+<p>You can update the files and folders that are to be scanned by selecting the checkboxes and clicking on <i>Update</i> Button. The files that you have not selected will be skipped and will not be scanned in future.</p>
+<h6 id="note-only-solidity-files-files-with-sol-sol-extension-will-be-scanned-files-that-will-not-be-scanned-will-not-be-highlighted">Note: Only solidity files (files with .sol, .Sol extension) will be scanned. Files that will not be scanned will not be highlighted</h6>
 <p><img alt="Mark Wont Fix" src="../assets/images/project/project_settings_webhook.png" /></p>
+<p>Watch the Tutorial on How to Enable Github actions to facilitate continuous security using SolidityScan.</p>
+<iframe width="740" height="420" src="https://www.youtube.com/embed/XgKJifONbi0" title="Enable Github actions to facilitate continuous security using SolidityScan" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 <h4 id="view-history-of-scans">View History of Scans</h4>
 <p>You can see the history of the scans done for this project here. All the re-scans done can be seen here. You will also be able to see which files from your projects were scanned for this scan.</p>
 <p>Click on any one of the <i>View Scan Result</i> to view the result for that scan.</p>
