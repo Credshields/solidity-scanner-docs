@@ -4,7 +4,7 @@ Once a scan is done, you have the option to generate and publish a report of the
 
 # Step 1: Generate the Report
 
-First, Please scan a project or a deployed contract. If you have not scanned anything yet, then head over here to [scan a project](./project) or here to [scan a deployed contract](./block) or to [scan a file](./filescan).
+First, Please scan a project or a deployed contract. If you have not scanned anything yet, then head over here to [scan a project](/project) or here to [scan a deployed contract](/block) or to [scan a file](/filescan).
 
 Once you have finished scanning a project or a deployed contract or a file, click on Generate Report button, as shown below
 
@@ -31,4 +31,3 @@ Once your request is approved, you can view your report here and also copy the P
 # Step 4: Download Report.
 
 Once you have published your report and it has been approved by our team, you can also download it as a PDf and share it offline.
-
