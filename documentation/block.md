@@ -16,16 +16,16 @@ We also provide the functionality to scan a particular deployed contract whose c
 12. [Buildbear - (buildbear.io)](https://buildbear.io/)
 13. [XDC - (xdc.blocksscan.io)](https://xdc.blocksscan.io/)
 
-###### NOTE: Please follow the constraints below to avoid scan failure:
-
-1. Navigate to the explorer of the particular blockchain (Ethereum - Etherscan.io).
-2. Use the search bar to get your smart contract and check if the source code is verified in the "Contract" tab of the selected explorer.
-
 # Step 1: Enter the details of the contract
 
 Enter the link to the contract from the ledger. Select the blockchain platform on which this transaction has taken place. Also, select the contract chain for this transaction.
 
 ![Scan the Project](./assets/images/block/block_scan_form.png)
+
+###### Please follow the constraints below to avoid scan failure:
+
+1. Navigate to the explorer of the particular blockchain (Ethereum - Etherscan.io).
+2. Use the search bar to get your smart contract and check if the source code is verified in the "Contract" tab of the selected explorer.
 
 # Step 2: View the results of the scan
 

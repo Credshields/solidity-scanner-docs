@@ -18,6 +18,8 @@ SolidityScan aims to provide security audits with just a click of a button, help
 
 # Solidity Scan Features:
 
+- [Do a Quickscan for a Contract deployed on Chain](./quickscan.md)
+  Do a Quickscan for a particular deployed contract whose codes are published on the supported explorers.
 - [Scan a Project](./project)
   Scan your public and private repositories hosted on Github.
 - [Scan a Contract deployed on Chain](./block)

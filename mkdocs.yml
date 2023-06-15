@@ -25,6 +25,7 @@ extra_css: [assets/styles/style.css]
 
 nav:
   - 'Introduction': index.md
+  - 'Do a Quickscan of a Deployed Contract': quickscan.md
   - 'Scan a Project': project.md
   - 'Scan a Deployed Contract': block.md
   - 'Scan Solidity Files': filescan.md
