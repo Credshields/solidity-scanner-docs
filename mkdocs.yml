@@ -31,6 +31,7 @@ nav:
   - 'Scan Solidity Files': filescan.md
   - 'Generate and Publish Reports': report.md
   - 'Integrations': integrations.md
+  - 'Organisations': organisation.md
 
 markdown_extensions:
   - pymdownx.tilde
