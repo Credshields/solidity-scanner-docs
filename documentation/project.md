@@ -14,17 +14,21 @@ Once the account is created, you can start scanning your solidity project by fol
 
 Enter the project's name and the repository link for the project. When entering the link please verify the following to avoid scan failure:
 
-1. Ensure the link is to a GitHub repository containing Solidity (.sol) files. It is recommended to use the HTTPS GitHub (.git) cloning link of the repository.
+1. Ensure the link is to a Git repository containing Solidity (.sol) files. Supported Platforms Gitlab/Github/Bitbucket
 
-2. Verify if the repository is public, for private repositories, please integrate your GitHub from the Integrations tab.
+2. Verify if the repository is public, for private repositories, please integrate your GitHub/Gitlab/Bitbucket from the Integrations tab.
 
 Also, select if the repository is public or private. Click on the next button to proceed to Step 2.
 
+![Scan Blocks](./assets/images/project/step_1.png)
+
 #### STEP 2: Select Branch and Files to be Scanned
 
-After you have entered the github repository link, you will be asked to select a branch that contains the project which has to be scanned. By default, the default branch on your github repository will be selected.
+After you have entered the git repository link, you will be asked to select a branch that contains the project which has to be scanned. By default, the default branch on your github repository will be selected.
 
 Also you will have an option to select files and folders that you want to scan. The files and folders that are not selected will be skipped in the scanning process.
+
+![Scan Blocks](./assets/images/project/step_2.png)
 
 ###### Note: Only solidity files (files with .sol, .Sol extension) will be scanned
 
@@ -32,23 +36,17 @@ Once you are done configuring your settings, click on next to proceed to Step 3.
 
 #### STEP 3: Configure Webhooks for Github Actions
 
-You have the option to trigger automatic scans using Github Actions. Whenever a new commit will be pushed to the branch, if webhook has been enabled then it will trigger a scan automatically to check if the new changes have any vulnerabilities present.
+You have the option to trigger automatic scans using Git Actions. Whenever a new commit will be pushed to the branch, if webhook has been enabled then it will trigger a scan automatically to check if the new changes have any vulnerabilities present.
 
 You can only configure webhooks for those github respository which are owned by you (user). Also this funcationality is only possible once you have connected your github account with SolidityScan Application. [Here](/integrations) are the steps to do the.
 
-Watch this tutorial on How to Integrate your Github account with SolidityScan.
-
-<iframe width="740" height="420" src="https://www.youtube.com/embed/ppZ-ktRcC88" title="Integrate your Github account with SolidityScan" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
 After you have configured your settings click on Start Scan Button to initiate the scan.
+
+![Scan Blocks](./assets/images/project/step_3.png)
 
 After you have started the scan, you will see the below screen.
 
 ![Scan Blocks](./assets/images/project/project_list.png)
-
-Watch this tutorial on How to do a Project Scan.
-
-<iframe width="720" height="410" src="https://www.youtube.com/embed/NFKnm2H9wvE" title="Scan a Github Project using SolidityScan" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 # View the results of the scan
 

@@ -18,10 +18,6 @@ Members you add to the organisation do not need to have an active plan to be add
 
 ![Create Org](./assets/images/organisation/create_org_form.png)
 
-3. Our Team will review your request and approve it as soon as possible.
-
-![Create Org](./assets/images/organisation/org_creation_request.png)
-
 # Invite Members to your Organisation
 
 1. Once your Organisation Creation request is approved, Click on Invite Member Button to add users to your organisation.
@@ -63,4 +59,4 @@ Organisation Members do not have access to perform the following actions:
 
 After you have successfully created your organisation, you can manage the roles of the users, present in your organisation. You can see the users who have accepted your organisation invititation request. You also have the option to delete a user from the organisation.
 
-![Create Org](./assets/images/organisation/org_member_list.png)
+![Create Org](./assets/images/organisation/org_member_list.stsfsdfrrrwretrtrtrttrwrgagrsrtrtrtretertnhnfhsrdfggdggdhhdfggddfafvfggetgrfgfdfgfgdfggfgddffdfddfgdghytgbgpng)
