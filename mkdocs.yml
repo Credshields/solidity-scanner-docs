@@ -1,4 +1,4 @@
-site_name: Solidity Scan
+site_name: Solidity Scan Docs
 docs_dir: documentation
 theme:
   name: material
@@ -25,10 +25,13 @@ extra_css: [assets/styles/style.css]
 
 nav:
   - 'Introduction': index.md
-  - 'Scan a Project': project.md
+  - 'Do a Quickscan of a Deployed Contract': quickscan.md
+  - 'Scan a Online Git Repository': project.md
   - 'Scan a Deployed Contract': block.md
+  - 'Upload and Scan Solidity Project': filescan.md
   - 'Generate and Publish Reports': report.md
   - 'Integrations': integrations.md
+  - 'Organisations': organisation.md
 
 markdown_extensions:
   - pymdownx.tilde

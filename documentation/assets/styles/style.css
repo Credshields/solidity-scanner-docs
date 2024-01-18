@@ -59,6 +59,13 @@ article ul a {
     margin-bottom: 0.5rem;
 }
 
+h4 {
+    font-size: 1rem;
+}
+
+li {
+    font-size: 0.7rem;
+}
 
 
 .md-nav {
