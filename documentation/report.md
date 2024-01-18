@@ -29,7 +29,7 @@ You can publish two types of Report:
 
 A Self-Published Report refers to a document in which a user takes responsibility for identifying and documenting false positive bugs. Unlike traditional auditing processes conducted by external teams, this report undergoes scrutiny directly from the user who has identified and reported the potential issues.
 
-# Verfied Reports
+# Verified Reports
 
 A verified report constitutes a verification assertion highlighting false positives identified by the external team within the automated report. It is important to note that a verified report should not be confused with a manual audit report.
 
