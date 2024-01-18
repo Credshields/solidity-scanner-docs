@@ -59,4 +59,4 @@ Organisation Members do not have access to perform the following actions:
 
 After you have successfully created your organisation, you can manage the roles of the users, present in your organisation. You can see the users who have accepted your organisation invititation request. You also have the option to delete a user from the organisation.
 
-![Create Org](./assets/images/organisation/org_member_list.stsfsdfrrrwretrtrtrttrwrgagrsrtrtrtretertnhnfhsrdfggdggdhhdfggddfafvfggetgrfgfdfgfgdfggfgddffdfddfgdghytgbgpng)
+![Create Org](./assets/images/organisation/org_member_list.png)
