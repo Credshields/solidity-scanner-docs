@@ -31,3 +31,5 @@ Once your request is approved, you can view your report here and also copy the P
 # Step 4: Download Report.
 
 Once you have published your report and it has been approved by our team, you can also download it as a PDf and share it offline.
+
+###### NOTE: A verified report constitutes a verification assertion highlighting false positives identified by the external team within the automated report. It is important to note that a verified report should not be confused with a manual audit report.
