@@ -20,14 +20,6 @@ You will see a form with prefilled data. It contains some general information ab
 
 Enter the contact information of the person or organization publishing the report. You can choose to make the information private or public. Once done, click on Publish Report button to submit your request for Publishing your Report.
 
-Once our team has reviewed the report, the report for publishing your Report will be approved, and it will be published.
-
-# Step 3: Explore Published Reports.
-
-You can see the history of the Published Reports for different Scans here. Once you have submitted a request for publishing your report, you can see the report here, along with the status of your request.
-
-Once your request is approved, you can view your report here and also copy the Public URL of your report from here.
-
 You can publish two types of Report:
 
 1. Self Published Reports
@@ -40,6 +32,12 @@ A Self-Published Report refers to a document in which a user takes responsibilit
 # Verfied Reports
 
 A verified report constitutes a verification assertion highlighting false positives identified by the external team within the automated report. It is important to note that a verified report should not be confused with a manual audit report.
+
+# Step 3: Explore Published Reports.
+
+You can see the history of the Published Reports for different Scans here. Once you have submitted a request for publishing your report, you can see the report here, along with the status of your request.
+
+Once your request is approved, you can view your report here and also copy the Public URL of your report from here.
 
 # Step 4: Download Report.
 
