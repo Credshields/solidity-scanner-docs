@@ -18,17 +18,17 @@ SolidityScan aims to provide security audits with just a click of a button, help
 
 # Solidity Scan Features:
 
-- [Do a Quickscan for a Contract deployed on Chain](./quickscan.md)
+- [Do a Quickscan for a Contract deployed on Chain](/quickscan/)
   Do a Quickscan for a particular deployed contract whose codes are published on the supported explorers.
-- [Scan a Project](./project)
+- [Scan a Project](/project/)
   Scan your public and private repositories hosted on Github.
-- [Scan a Contract deployed on Chain](./block)
+- [Scan a Contract deployed on Chain](/block/)
   Initiate scans on contracts deployed both on Testnets and Mainnets. SolidityScan currently supports Ethereum, Binance, Polygon, Avalanche and Fantom.
-- [Upload and Scan a .sol File](./project)
+- [Upload and Scan a .sol File](./filescan/)
   Upload your Solidity Files (.sol, .Sol) and scan them.
-- [Generate and Publish Reports](./report)
+- [Generate and Publish Reports](/report/)
   Generate your scan reports to get a detailed view on the vulnerabilities found in your source code. With your issues fixed, publish your report and share over the public link with your stakeholders.
-- [Integrations](./integrations)
+- [Integrations](/integrations/)
   Integrate SolidityScan with your github repository to conduct scans on your private repos.
 
   <br/>

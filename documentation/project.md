@@ -38,7 +38,7 @@ Once you are done configuring your settings, click on next to proceed to Step 3.
 
 You have the option to trigger automatic scans using Git Actions. Whenever a new commit will be pushed to the branch, if webhook has been enabled then it will trigger a scan automatically to check if the new changes have any vulnerabilities present.
 
-You can only configure webhooks for those github respository which are owned by you (user). Also this funcationality is only possible once you have connected your github account with SolidityScan Application. [Here](/integrations) are the steps to do the.
+You can only configure webhooks for those github respository which are owned by you (user). Also this funcationality is only possible once you have connected your github account with SolidityScan Application. [Here](/integrations/) are the steps to do the.
 
 After you have configured your settings click on Start Scan Button to initiate the scan.
 
@@ -108,7 +108,7 @@ You can Configure Settings on a Project for future scans. There are functionalit
 
 You have the option to trigger automatic scans using Github Actions. Whenever a new commit will be pushed to the branch, if webhook has been enabled then it will trigger a scan automatically to check if the new changes have any vulnerabilities present.
 
-You can only configure webhooks for those github respository which are owned by you (user). Also this funcationality is only possible once you have connected your github account with SolidityScan Application. [Here](./integrations) are the steps to do the.
+You can only configure webhooks for those github respository which are owned by you (user). Also this funcationality is only possible once you have connected your github account with SolidityScan Application. [Here](/integrations/) are the steps to do the.
 
 ##### Update Files to be Scanned
 
