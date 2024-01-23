@@ -22,6 +22,8 @@ Head over to the [Quickscan Page](https://solidityscan.com/quickscan)
 
 Enter the link to the contract from the ledger. Select the blockchain platform on which this transaction has taken place. Also, select the contract chain for this transaction.
 
+![Scan the Project](./assets/images/quickscan/quickscan_form_2.png)
+
 ![Scan the Project](./assets/images/quickscan/quickscan_form.png)
 
 ###### Please follow the constraints below to avoid scan failure:

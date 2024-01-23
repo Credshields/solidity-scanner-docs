@@ -1,4 +1,4 @@
-site_name: Solidity Scan Docs
+site_name: SolidityScan Docs
 docs_dir: documentation
 theme:
   name: material
