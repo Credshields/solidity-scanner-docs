@@ -1,6 +1,6 @@
 # Introduction
 
-SolidityScan is a cloud-based smart-contract vulnerability scanner built to discover vulnerabilities and help publish audit reports after vulnerability mitigations.
+SolidityScan is a cloud-based smart contract vulnerability scanner built to discover vulnerabilities and help publish audit reports after vulnerability mitigations.
 
 SolidityScan scans all of your smart contract code to detect potential security vulnerabilities and anti-patterns. The product aims to sit in your development pipeline, run the scan on your contract's code, and flag known vulnerabilities. The end output from the product is an audit report of your code, which contains information on which parts of your code might lead to potential security vulnerabilities.
 
@@ -16,20 +16,20 @@ SolidityScan aims to provide security audits with just a click of a button, help
 
 <br/>
 
-# Solidity Scan Features:
+# SolidityScan Features:
 
 - [Do a Quickscan for a Contract deployed on Chain](/quickscan/)
-  Do a Quickscan for a particular deployed contract whose codes are published on the supported explorers.
+  Perform a Quickscan for a particular deployed contract whose codes are published on the supported explorers.
 - [Scan a Project](/project/)
   Scan your public and private repositories hosted on Github.
 - [Scan a Contract deployed on Chain](/block/)
-  Initiate scans on contracts deployed both on Testnets and Mainnets. SolidityScan currently supports Ethereum, Binance, Polygon, Avalanche and Fantom.
+  Initiate scans on contracts deployed both on Testnets and Mainnets. SolidityScan currently supports Ethereum, Binance, Polygon, Avalanche, and Fantom.
 - [Upload and Scan a .sol File](./filescan/)
   Upload your Solidity Files (.sol, .Sol) and scan them.
 - [Generate and Publish Reports](/report/)
-  Generate your scan reports to get a detailed view on the vulnerabilities found in your source code. With your issues fixed, publish your report and share over the public link with your stakeholders.
+  Generate your scan reports to get a detailed view of the vulnerabilities found in your source code. With your issues fixed, publish your report and share it over the public link with your stakeholders.
 - [Integrations](/integrations/)
-  Integrate SolidityScan with your github repository to conduct scans on your private repos.
+  Integrate SolidityScan with your GitHub repository to conduct scans on your private repos.
 - [SolidityScan SDK](/sdk/)
 - [SolidityScan Visual Studio Code Extension](/vscode/)
 

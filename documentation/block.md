@@ -1,4 +1,4 @@
-# Scanning a Deployed Contract using Solidity Scan
+# Scanning a Deployed Contract using SolidityScan
 
 We also provide the functionality to scan a particular deployed contract whose code is published on the supported explorers. The currently supported chains and their respective explorers are as follows:
 

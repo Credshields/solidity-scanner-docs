@@ -12,7 +12,7 @@ In the future, we will also be providing the option to integrate it with JIRA.
 
 To give you an understanding of the integration process of these platforms, we have provided you with an example of how to integrate our app with your Github Account.
 
-## Step 1: Request to Connect With Github
+#### Step 1: Request to Connect With Github
 
 First, make sure you are on the Pro or Custom Plan. This service is only available for these Plans.
 
@@ -20,19 +20,19 @@ Once your plan is upgraded, click on the Connect Button to send a request to con
 
 ![Scan Blocks](./assets/images/integrations/Int 1.png)
 
-## Step 2: Login to Your Github Account
+#### Step 2: Login to Your Github Account
 
 A pop-up will open, asking you to log in to your Github Application.
 
 ![Scan Blocks](./assets/images/integrations/Int 2.png)
 
-## Step 3: Authorize Your Github App
+#### Step 3: Authorize Your Github App
 
 Once the login is successful, authorize the app to get data from your GitHub account, as shown below.
 
 ![Scan Blocks](./assets/images/integrations/Int 3.png)
 
-## Step 4: View the Detailed Result of the Scan
+#### Step 4: View the Detailed Result of the Scan
 
 After you have successfully connected the app to your GitHub account, you can see the integration status. You also have an option to Disconnect your GitHub account if you want.
 

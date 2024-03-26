@@ -1,44 +1,48 @@
-# Generate a report for the scan done
+# Generate a Report for the Scan Done
 
-Once a scan is done, you have the option to generate and publish a report of the scan. You need to follow the following step to do so:
+Once a scan is completed, you have the option to generate and publish a report of the scan. Follow these steps to do so:
 
-# Step 1: Generate the Report
+## Step 1: Generate the Report
 
-First, Please scan a project or a deployed contract. If you have not scanned anything yet, then head over here to [scan a project](/project/) or here to [scan a deployed contract](/block/) or to [scan a file](/filescan/).
+First, scan a project or a deployed contract. If you haven't scanned anything yet, head over here to [scan a project](/project/) or here to [scan a deployed contract](/block/) or to [scan a file](/filescan/).
 
-Once you have finished scanning a project or a deployed contract or a file, click on Generate Report button, as shown below
+Once you have finished scanning a project, deployed contract, or file, click on the "Generate Report" button.
 
-Once you have generated the report, you will have the option to View your Report.
+After generating the report, you will have the option to view it.
 
-# Step 2: Publish Your Report
+## Step 2: Publish Your Report
 
-Once you have gone through the report and updated its results, you also have an option to Publish a report for the scan that was carried out so that it can be shared with anyone.
+Once you have reviewed the report and updated its results, you can publish it for sharing.
 
-To Publish a Report, Click on the Publish Report button as shown below.
+To publish a report, click on the "Publish Report" button.
 
-You will see a form with prefilled data. It contains some general information about the Report. After reviewing it once, click on Next to go to the final page of the form.
+You can publish two types of reports:
 
-Enter the contact information of the person or organization publishing the report. You can choose to make the information private or public. Once done, click on Publish Report button to submit your request for Publishing your Report.
+1. **Self-Published Reports**: In this report, you take responsibility for identifying and documenting false positive bugs.
+2. **Verified Reports**: This report undergoes verification by our security team.
 
-You can publish two types of Report:
+When you click on the "Publish Report" button, you will be given three options:
 
-1. Self Published Reports
-2. Verfied Reports
+![Publish Report](./assets/images/report/publish_report_form.png)
 
-# Self Published Reports
+- **Self Publish Report**: You can self-publish this report.
+- **Publish a Verified Report**: Get the report verified by our security team.
+- **Publish the Report after an Assisted Audit**: Our security team will audit the report's findings and assist in publishing it.
 
-A Self-Published Report refers to a document in which a user takes responsibility for identifying and documenting false positive bugs. Unlike traditional auditing processes conducted by external teams, this report undergoes scrutiny directly from the user who has identified and reported the potential issues.
+Select one of the options above and confirm.
 
-# Verified Reports
+You will see a form with prefilled data, containing general information about the report. After reviewing it, click "Next" to proceed.
 
-A verified report constitutes a verification assertion highlighting false positives identified by the external team within the automated report. It is important to note that a verified report should not be confused with a manual audit report.
+![Publish Report](./assets/images/report/publish_report_contact.png)
 
-# Step 3: Explore Published Reports.
+Enter the contact information for the person or organization publishing the report. You can choose to make the information private or public. Once done, make the payment if the service is not available in your current plan. Click on the "Publish Report" button to submit your request.
 
-You can see the history of the Published Reports for different Scans here. Once you have submitted a request for publishing your report, you can see the report here, along with the status of your request.
+## Step 3: Explore Published Reports
 
-Once your request is approved, you can view your report here and also copy the Public URL of your report from here.
+You can view the history of published reports for different scans here. Once you have submitted a request for publishing your report, you can track its status here.
 
-# Step 4: Download Report.
+Once your request is approved, you can view your report and copy the Public URL.
 
-Once you have published your report and it has been approved by our team, you can also download it as a PDf and share it offline.
+## Step 4: Download Report
+
+Once your report is published and approved, you can download it as a PDF and share it offline.

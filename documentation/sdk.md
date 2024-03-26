@@ -1,7 +1,7 @@
 Now you can scan your Solidity contracts using our CLI tool.
 Introducing our SolidityScan SDK for streamlined smart contract scanning! With our SDK, you can effortlessly scan your solidity contracts for vulnerabilities.
 
-### Get your API keys
+#### Get your API keys
 
 To utilize our SDK, you need your own personal API key. Please follow the steps below to obtain your API Key:
 

@@ -21,16 +21,12 @@ Members you add to the organization do not need to have an active plan to be add
 # Invite Members to your Organisation
 
 1. Once your Organisation Creation request is approved, Click on Invite Member Button to add users to your organization.
-
-![Create Org](./assets/images/organisation/invite_member_request.png)
+   ![Create Org](./assets/images/organisation/invite_member_request.png)
 
 2. You can add users in a batch or individually as per your requirement. Enter the email of the user and select the role you want to assign to the user. Then click on Add or press Enter to add the user
-
-![Create Org](./assets/images/organisation/invite_member_list.png)
+   ![Create Org](./assets/images/organisation/invite_member_list.png)
 
 3. Once the batch of users you want to add is ready, Click on Add users button to send the invite to the users.
-
-![Scan Blocks](./assets/images/integrations/Int 2.png)
 
 # User Roles policy for Organisation Members
 
