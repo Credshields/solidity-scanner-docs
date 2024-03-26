@@ -15,6 +15,8 @@ We also provide the functionality to do a Quickscan for a particular deployed co
 11. [Optimism - (optimism.io)](https://www.optimism.io/)
 12. [Buildbear - (buildbear.io)](https://buildbear.io/)
 13. [XDC - (xdc.blocksscan.io)](https://xdc.blocksscan.io/)
+14. [Blockscout - (blockscout.com)](https://www.blockscout.com/)
+15. [Routescan - (routescan.io)](https://routescan.io/)
 
 # Step 1: Enter the details of the contract
 

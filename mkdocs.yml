@@ -32,6 +32,8 @@ nav:
   - 'Generate and Publish Reports': report.md
   - 'Integrations': integrations.md
   - 'Organisations': organisation.md
+  - 'SolidityScan SDK': sdk.md
+  - 'SolidityScan VS Code Extension': vscode.md
 
 markdown_extensions:
   - pymdownx.tilde

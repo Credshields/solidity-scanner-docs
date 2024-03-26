@@ -30,6 +30,8 @@ SolidityScan aims to provide security audits with just a click of a button, help
   Generate your scan reports to get a detailed view on the vulnerabilities found in your source code. With your issues fixed, publish your report and share over the public link with your stakeholders.
 - [Integrations](/integrations/)
   Integrate SolidityScan with your github repository to conduct scans on your private repos.
+- [SolidityScan SDK](/sdk/)
+- [SolidityScan Visual Studio Code Extension](/vscode/)
 
   <br/>
   <br/>
