@@ -16,10 +16,7 @@
     --md-accent-fg-color--transparent: #E8E8E8;
     --md-accent-bg-color: #000000;
     --md-accent-bg-color--light: #000000;
-
-    --md-patr-secondary-yellow: #38cb89;
-    --md-patr-orange: #FF832B;
-    --md-typeset-a-color: var(--md-patr-secondary-yellow);
+    --md-code-bg-color: #ececec;
     --md-text-font-family: "Poppins";
 }
 
