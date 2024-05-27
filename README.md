@@ -1,8 +1,10 @@
 # solidity-scanner-docs
-Documentation for Solidity Scanner
+
+Documentation for SolidityScan
 
 # Project Setup
-Install mkdocs. Click [here](https://www.mkdocs.org/) 
+
+Install mkdocs. Click [here](https://www.mkdocs.org/)
 
 Python3 and pip should be installed.
 
@@ -11,5 +13,3 @@ Install mkdocs-material theme.
 
 Run the project locally
 `mkdocs serve`
-
-
