@@ -1,6 +1,6 @@
 # SolidityScan Visual Studio Code Extension
 
-We also provide Visual Studio Code extension that has scanning capabilities for Solidity smart contracts. It allows you to scan a single .sol file or an entire workspace and gives a security profile for your contract with a security score, vulnerability distribution according to criticality levels & highlights the lines of code containing the vulnerabilities.
+SolidityScan is a Visual Studio Code extension that provides scanning capabilities for Solidity smart contracts. It allows you to scan a single .sol file or an entire workspace and gives a security profile for your contract with a security score, vulnerability distribution according to criticality levels & highlights the lines of code containing the vulnerabilities.
 
 #### Features
 
@@ -12,7 +12,7 @@ We also provide Visual Studio Code extension that has scanning capabilities for 
 
 Please see the following example to get an understanding on how to use the extension.
 
-![VSCode Demo](./assets/images/vscode-demo.gif)
+![VSCode Demo](https://web-assets.solidityscan.com/web-assets/SolidityScan-vscode-demo.gif)
 
 #### Prerequisites
 
@@ -25,10 +25,14 @@ Reload or restart Visual Studio Code.
 
 #### Configuration
 
-To use SolidityScan, you may configure an API Access Token for authentication.
+To use SolidityScan, you will need to Login into SolidityScan .
 
-1. Open Visual Studio Code settings (File > Preferences > Settings or `Ctrl + ,)`.
-2. Search for "SolidityScan" and set the `solidityscan.apiToken` property with your API Access Token.
+1. Locate SolidityScan in Activity Bar and click on Sign in to SolidityScan.
+2. You will be redirected to the SolidityScan login page.
+3. Upon successful authentication, please return to Visual Studio Code.
+4. You are now logged in and can start scanning your Solidity code.
+
+![Demo Login](https://web-assets.solidityscan.com/web-assets/SolidityScan_Signin.png)
 
 #### Usage
 
