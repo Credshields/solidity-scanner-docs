@@ -25,7 +25,7 @@ Reload or restart Visual Studio Code.
 
 #### Configuration
 
-To use SolidityScan, you will need to Login into SolidityScan .
+To use SolidityScan, you will need to Login into SolidityScan.
 
 1. Locate SolidityScan in Activity Bar and click on Sign in to SolidityScan.
 2. You will be redirected to the SolidityScan login page.
@@ -51,3 +51,4 @@ SolidityScan provides an explorer view in the activity bar with the 'Analysis' v
 - Low
 - Informational
 - Gas
+
