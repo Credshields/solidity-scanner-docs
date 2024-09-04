@@ -32,6 +32,7 @@ SolidityScan aims to provide security audits with just a click of a button, help
   Integrate SolidityScan with your GitHub repository to conduct scans on your private repos.
 - [SolidityScan SDK](/sdk/)
 - [SolidityScan Visual Studio Code Extension](/vscode/)
+- [SolidityScan Remix Plugin](/remix/)
 
   <br/>
   <br/>
