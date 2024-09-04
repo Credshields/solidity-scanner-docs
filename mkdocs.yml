@@ -24,16 +24,17 @@ extra:
 extra_css: [assets/styles/style.css]
 
 nav:
-  - 'Introduction': index.md
-  - 'Do a Quickscan of a Deployed Contract': quickscan.md
-  - 'Scan a Online Git Repository': project.md
-  - 'Scan a Deployed Contract': block.md
-  - 'Upload and Scan Solidity Project': filescan.md
-  - 'Generate and Publish Reports': report.md
-  - 'Integrations': integrations.md
-  - 'Organisations': organisation.md
-  - 'SolidityScan SDK': sdk.md
-  - 'SolidityScan VS Code Extension': vscode.md
+  - "Introduction": index.md
+  - "Do a Quickscan of a Deployed Contract": quickscan.md
+  - "Scan a Online Git Repository": project.md
+  - "Scan a Deployed Contract": block.md
+  - "Upload and Scan Solidity Project": filescan.md
+  - "Generate and Publish Reports": report.md
+  - "Integrations": integrations.md
+  - "Organisations": organisation.md
+  - "SolidityScan SDK": sdk.md
+  - "SolidityScan VS Code Extension": vscode.md
+  - "SolidityScan Remix Plugin": remix.md
 
 markdown_extensions:
   - pymdownx.tilde
