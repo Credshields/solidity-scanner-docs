@@ -51,4 +51,3 @@ SolidityScan provides an explorer view in the activity bar with the 'Analysis' v
 - Low
 - Informational
 - Gas
-
