@@ -35,6 +35,7 @@ nav:
   - "SolidityScan SDK": sdk.md
   - "SolidityScan VS Code Extension": vscode.md
   - "SolidityScan Remix Plugin": remix.md
+  - "About the Bug Report Program": bugreport.md
 
 markdown_extensions:
   - pymdownx.tilde
